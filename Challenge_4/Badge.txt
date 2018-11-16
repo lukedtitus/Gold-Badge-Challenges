@@ -20,7 +20,7 @@ A badge repository that will have methods that do the following:
 The Program will allow a security staff member to do the following:
 create a new badge.
 update doors on an existing badge.
-delete all doors from an existing badge.
+delete a badge.
 show a list with all badge numbers and door access, like this:
 
 Key
