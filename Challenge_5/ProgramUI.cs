@@ -148,7 +148,7 @@ namespace Challenge_5
             Console.WriteLine("Now, please enter their last name");
             string lastNameInput = Console.ReadLine();
 
-            foreach (Customer customer in customerList)//?
+            foreach (Customer customer in customerList)
             {
                 if (firstNameInput == customer.FirstName && lastNameInput == customer.LastName)
                 {

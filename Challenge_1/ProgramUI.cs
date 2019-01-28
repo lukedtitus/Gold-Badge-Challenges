@@ -8,7 +8,6 @@ namespace Challenge_1
 {
     public class ProgramUI
     {
-        //unit tests repo methods
         MenuRepository _menuRepo = new MenuRepository();
 
         public void Run()
@@ -18,8 +17,6 @@ namespace Challenge_1
 
         private void RunMenu()
         {
-            
-
             bool running = true;
             while (running)
             {
@@ -38,14 +35,12 @@ namespace Challenge_1
                         CreateMenuItem();
                         break;
                     case 2:
-                        //--delete menu item
                         RemoveMenuItem();
                         break;
                     case 3:
                         DisplayMenuContents();
                         break;
                     case 4:
-                        //-- exit
                         running = false;
                         break;
                     default:
@@ -74,7 +69,6 @@ namespace Challenge_1
 
             Console.WriteLine("\nWhat is your desired meal price? \n(Please match this format; 5.99)");
             newItem.Price = double.Parse(Console.ReadLine());
-
 
             _menuRepo.AddItemToMenu(newItem);
         }

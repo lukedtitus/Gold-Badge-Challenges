@@ -23,9 +23,6 @@ namespace Challenge_1
             Price = price;
         }
 
-        public Menu()
-        {
-
-        }
+        public Menu() { }
     }
 }

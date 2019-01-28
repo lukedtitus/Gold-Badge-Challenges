@@ -88,11 +88,7 @@ namespace Challenge_4
                         break;
                 }
             }
-
-            
-            
             Badge newBadge = new Badge(badgeID, doors);
-
             _badgeRepo.AddBadgeToList(newBadge);
         }
 

@@ -106,7 +106,7 @@ namespace Challenge_3
             List<Outing> outingList = _outingRepo.GetOutingList();
             foreach (Outing outing in outingList)
             {
-                Console.WriteLine($"Outing type: {(OutingType)outing.OutingType}\n" + //--fix this--//
+                Console.WriteLine($"Outing type: {(OutingType)outing.OutingType}\n" +
                     $"Number of people attended: {outing.NumberAttented}\n" +
                     $"Date of event: {outing.DateAttended.ToShortDateString()}\n" +
                     $"Cost per person: {outing.CostPerPerson}\n" +
@@ -198,7 +198,6 @@ namespace Challenge_3
             Console.Clear();
 
             List<Outing> outingList = _outingRepo.GetOutingList();
-            //OutingType typeValue = OutingType.None;
             double actualEventCost = 0;
             foreach (Outing outing in outingList)
             {
@@ -209,9 +208,6 @@ namespace Challenge_3
 
             Console.WriteLine("Press enter to continue...");
             Console.ReadLine();
-
-
-            //Console.WriteLine((OutingType)Outing.OutingType); USEFUL INFORMATION FOR DISPLAYING ENUMS
         }
     }
 }

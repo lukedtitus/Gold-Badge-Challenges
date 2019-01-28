@@ -19,38 +19,5 @@ namespace Challenge_3
         {
             _outingList.Add(outing);
         }
-
-        //public void CalculateOutingCost()
-        //{
-        //    string userInput = Console.ReadLine();
-
-        //    foreach (Outing outings in _outingList)
-        //    {
-        //        if (userInput == OutingType.Golf)
-        //        {
-                    
-        //        }
-
-        //        else if (userInput == OutingType.AmusementPark)
-        //        {
-
-        //        }
-
-        //        else if (userInput == OutingType.Bowling)
-        //        {
-
-        //        }
-
-        //        else if (userInput == OutingType.Concert)
-        //        {
-
-        //        }
-
-        //        else
-        //        {
-        //            Console.WriteLine("That input is invalid");
-        //        }
-        //    }
-        //}
     }
 }

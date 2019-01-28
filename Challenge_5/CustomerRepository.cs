@@ -18,7 +18,6 @@ namespace Challenge_5
         public List<Customer> GetSortedCustomerList()
         {
             _customerList.OrderBy(i => i.LastName).ToList();
-            //_customerList.Sort((lastNameOne, lastNameTwo) => lastNameOne.);
             return _customerList;
         }
 
